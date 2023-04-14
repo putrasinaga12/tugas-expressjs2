@@ -1,0 +1,24 @@
+{
+  "name": "tugas-expressjs2",
+  "version": "1.0.0",
+  "description": "membuat sebuah rest-api dengan metode CRUD",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "putra",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.6.5"
+  }
+}
